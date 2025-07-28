@@ -1,6 +1,6 @@
 
 html {
- font-size: 1rem;
+ font-size: 0.8rem;
 }
 
 a {
@@ -121,7 +121,7 @@ li {
 }
 
 .company-container {
-  max-width: 1000px;
+  : 1000px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -216,7 +216,7 @@ li {
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 1.5rem; /* スマホでは文字サイズを少し大きく */
+    font-size: 1rem; /* スマホでは文字サイズを少し大きく */
   }
 
   #header {
@@ -229,13 +229,13 @@ li {
   }
 
   .mainvisual {
-    height: 60vh; /* スマホでは高さを60%に */
+    height: 50vh; /* スマホでは高さを60%に */
     border-radius: 0; /* 角丸をなくして全画面にフィットさせる */
   }
 
   .mainvisual p {
     margin-left: 0; /* スマホでは中央に配置 */
-    font-size: 25px; /* スマホでは文字サイズを小さめに */
+    font-size: 16px; /* スマホでは文字サイズを小さめに */
     text-align: center;
   }
 }
