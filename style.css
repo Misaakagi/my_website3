@@ -1,6 +1,6 @@
 
 html {
- font-size: 0.8rem;
+ font-size: 1rem;
 }
 
 a {
@@ -216,7 +216,7 @@ li {
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 1.3rem; /* スマホでは文字サイズを少し大きく */
+    font-size: 1.5rem; /* スマホでは文字サイズを少し大きく */
   }
 
   #header {
@@ -229,7 +229,7 @@ li {
   }
 
   .mainvisual {
-    height: 40vh; /* スマホでは高さを60%に */
+    height: 60vh; /* スマホでは高さを60%に */
     border-radius: 0; /* 角丸をなくして全画面にフィットさせる */
   }
 
