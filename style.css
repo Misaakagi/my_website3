@@ -214,3 +214,28 @@ li {
   margin-right: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 1rem; /* スマホでは文字サイズを少し大きく */
+  }
+
+  #header {
+    flex-direction: column; /* スマホでは縦並びにする場合 */
+    align-items: flex-start;
+  }
+
+  #header li {
+    margin-left: 15px; /* メニュー間隔を縮める */
+  }
+
+  .mainvisual {
+    height: 60vh; /* スマホでは高さを60%に */
+    border-radius: 0; /* 角丸をなくして全画面にフィットさせる */
+  }
+
+  .mainvisual p {
+    margin-left: 0; /* スマホでは中央に配置 */
+    font-size: 16px; /* スマホでは文字サイズを小さめに */
+    text-align: center;
+  }
+}
